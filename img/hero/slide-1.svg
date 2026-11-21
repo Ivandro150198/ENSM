@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00502a"/>
+      <stop offset="1" stop-color="#00703a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#fundo)"/>
+  <circle cx="1280" cy="260" r="340" fill="#fcd116" fill-opacity="0.18"/>
+  <circle cx="1480" cy="720" r="220" fill="#ffffff" fill-opacity="0.08"/>
+  <circle cx="180" cy="800" r="260" fill="#ce1126" fill-opacity="0.12"/>
+</svg>

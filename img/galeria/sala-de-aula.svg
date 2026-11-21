@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="titulo">
+  <title id="titulo">Espaço reservado: aula de língua gestual</title>
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00502a"/>
+      <stop offset="1" stop-color="#00703a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#fundo)"/>
+  <circle cx="640" cy="120" r="150" fill="#fcd116" fill-opacity="0.2"/>
+  <circle cx="110" cy="520" r="110" fill="#ce1126" fill-opacity="0.15"/>
+  <text x="400" y="285" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#ffffff">Aula de língua gestual</text>
+  <text x="400" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#e7f3ec">Substituir por fotografia real</text>
+</svg>

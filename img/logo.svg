@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="logo-titulo">
+  <title id="logo-titulo">Escola Nacional de Surdos e Mudos da Guiné-Bissau</title>
+  <circle cx="60" cy="60" r="58" fill="#00703a"/>
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#fcd116" stroke-width="4"/>
+  <path d="M60 29 L62.65 36.36 L70.46 36.6 L64.28 41.39 L66.46 48.9 L60 44.5 L53.54 48.9 L55.72 41.39 L49.54 36.6 L57.35 36.36 Z" fill="#000" stroke="#ce1126" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="60" y="88" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="#ffffff" letter-spacing="2">ENSM</text>
+</svg>

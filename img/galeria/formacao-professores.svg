@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="titulo">
+  <title id="titulo">Espaço reservado: oficina de formação para professores</title>
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5c4700"/>
+      <stop offset="1" stop-color="#8f6f00"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#fundo)"/>
+  <circle cx="640" cy="120" r="150" fill="#ffffff" fill-opacity="0.12"/>
+  <circle cx="110" cy="520" r="110" fill="#00703a" fill-opacity="0.25"/>
+  <text x="400" y="285" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#ffffff">Oficina para professores</text>
+  <text x="400" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#f6efd0">Substituir por fotografia real</text>
+</svg>

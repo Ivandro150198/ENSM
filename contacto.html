@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto | Escola Nacional de Surdos e Mudos da Guiné-Bissau</title>
+  <meta name="description" content="Contacte a Escola Nacional de Surdos e Mudos da Guiné-Bissau por telefone, email ou formulário. Pode também visitar-nos presencialmente.">
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
+
+  <div class="topbar">
+    <div class="container">
+      <span>Educação, língua gestual e inclusão para pessoas surdas</span>
+      <span>Contacto: <a href="contacto.html">[+245 000 000 000]</a></span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Escola Nacional de Surdos e Mudos da Guiné-Bissau, página inicial">
+        <img src="img/logo.svg" alt="" width="56" height="56">
+        <span class="brand-text">
+          <strong>Escola Nacional de Surdos e Mudos</strong>
+          <small>Guiné-Bissau</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="nav-toggle-barras" aria-hidden="true"><span></span><span></span><span></span></span>
+        Menu
+      </button>
+
+      <nav id="menu" class="main-nav" aria-label="Principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">A escola</a></li>
+          <li><a href="ensino.html">Ensino</a></li>
+          <li><a href="inscricoes.html">Inscrições</a></li>
+          <li><a href="noticias.html">Notícias</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Caminho de navegação">
+          <ol>
+            <li><a href="index.html">Início</a></li>
+            <li>Contacto</li>
+          </ol>
+        </nav>
+        <h1>Contacto</h1>
+        <p>Estamos disponíveis para esclarecer dúvidas, receber visitas e encaminhar pedidos.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="titulo-contactos">
+      <div class="container split">
+
+        <div>
+          <p class="eyebrow">Como nos encontrar</p>
+          <h2 id="titulo-contactos">Fale connosco</h2>
+          <p class="texto-suave">Pode contactar-nos da forma que lhe for mais confortável. Pessoas surdas são bem-vindas a escrever por email, a enviar mensagem ou a visitar-nos presencialmente.</p>
+
+          <div class="info-lista">
+            <div class="info-item">
+              <h3>Morada</h3>
+              <p>[Endereço completo], Bissau, Guiné-Bissau</p>
+            </div>
+            <div class="info-item">
+              <h3>Telefone</h3>
+              <p>[+245 000 000 000]</p>
+            </div>
+            <div class="info-item">
+              <h3>Email</h3>
+              <p>[email@escola]</p>
+            </div>
+            <div class="info-item">
+              <h3>Horário de atendimento</h3>
+              <p>Segunda a sexta-feira, das 8h00 às 16h00</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <form id="form-contacto" class="formulario" data-destino="email@escola.example" novalidate>
+            <h2 class="formulario-titulo">Envie uma mensagem</h2>
+
+            <div class="form-linha">
+              <div class="campo">
+                <label for="nome">Nome completo <span aria-hidden="true">*</span></label>
+                <input id="nome" name="nome" type="text" autocomplete="name" required>
+              </div>
+              <div class="campo">
+                <label for="telefone">Telefone <span class="opcional">(opcional)</span></label>
+                <input id="telefone" name="telefone" type="tel" autocomplete="tel">
+              </div>
+            </div>
+
+            <div class="campo">
+              <label for="email">Email <span aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+
+            <div class="campo">
+              <label for="assunto">Assunto <span aria-hidden="true">*</span></label>
+              <select id="assunto" name="assunto" required>
+                <option value="">Escolha um assunto</option>
+                <option>Informações sobre inscrições</option>
+                <option>Informações sobre os níveis de ensino</option>
+                <option>Marcar visita à escola</option>
+                <option>Outro assunto</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label for="mensagem">Mensagem <span aria-hidden="true">*</span></label>
+              <textarea id="mensagem" name="mensagem" required></textarea>
+            </div>
+
+            <button class="btn btn-verde" type="submit">Enviar mensagem</button>
+
+            <p class="nota">Ao enviar, abre-se o seu programa de email com a mensagem já preenchida. Confirme e envie-a a partir daí.</p>
+            <p id="estado-form" class="estado" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="cta" aria-labelledby="titulo-cta-contacto">
+      <div class="container">
+        <h2 id="titulo-cta-contacto">Prefere vir pessoalmente?</h2>
+        <p>Pode visitar a secretaria no horário de atendimento. Recomendamos marcar antes, para que a equipa esteja disponível.</p>
+        <a class="btn btn-amarelo" href="inscricoes.html">Ver documentos para inscrição</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="img/logo.svg" alt="" width="48" height="48">
+          <strong>Escola Nacional de Surdos e Mudos da Guiné-Bissau</strong>
+        </div>
+        <p>Educação, língua gestual e inclusão para pessoas surdas.</p>
+      </div>
+
+      <div>
+        <h3>Navegação</h3>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">A escola</a></li>
+          <li><a href="ensino.html">Ensino</a></li>
+          <li><a href="inscricoes.html">Inscrições</a></li>
+          <li><a href="noticias.html">Notícias</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contacto</h3>
+        <ul>
+          <li>[Endereço completo], Bissau, Guiné-Bissau</li>
+          <li>Telefone: [+245 000 000 000]</li>
+          <li>Email: [email@escola]</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="ano">2026</span> Escola Nacional de Surdos e Mudos da Guiné-Bissau. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

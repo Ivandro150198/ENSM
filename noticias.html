@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notícias | Escola Nacional de Surdos e Mudos da Guiné-Bissau</title>
+  <meta name="description" content="Notícias sobre a Escola Nacional de Surdos e Mudos da Guiné-Bissau, publicadas em fontes públicas.">
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
+
+  <div class="topbar">
+    <div class="container">
+      <span>Educação, língua gestual e inclusão para pessoas surdas</span>
+      <span>Contacto: <a href="contacto.html">[+245 000 000 000]</a></span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Escola Nacional de Surdos e Mudos da Guiné-Bissau, página inicial">
+        <img src="img/logo.svg" alt="" width="56" height="56">
+        <span class="brand-text">
+          <strong>Escola Nacional de Surdos e Mudos</strong>
+          <small>Guiné-Bissau</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="nav-toggle-barras" aria-hidden="true"><span></span><span></span><span></span></span>
+        Menu
+      </button>
+
+      <nav id="menu" class="main-nav" aria-label="Principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">A escola</a></li>
+          <li><a href="ensino.html">Ensino</a></li>
+          <li><a href="inscricoes.html">Inscrições</a></li>
+          <li><a href="noticias.html" aria-current="page">Notícias</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Caminho de navegação">
+          <ol>
+            <li><a href="index.html">Início</a></li>
+            <li>Notícias</li>
+          </ol>
+        </nav>
+        <h1>Notícias</h1>
+        <p>Notícias sobre a escola publicadas em fontes públicas.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="titulo-lista-noticias">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Atualidade</p>
+          <h2 id="titulo-lista-noticias">Notícias publicadas</h2>
+          <p>Escolha uma categoria para ver apenas as notícias que lhe interessam.</p>
+        </div>
+
+        <!-- Só são publicadas notícias confirmadas em fontes públicas, com a respetiva fonte. Para acrescentar uma notícia, copie o bloco article com a classe noticia, defina data-categoria e acrescente um botão de filtro com o mesmo valor. -->
+
+        <div class="filtros" role="group" aria-label="Filtrar notícias por categoria">
+          <button class="filtro" type="button" data-filtro="todas" aria-pressed="true">Todas</button>
+          <button class="filtro" type="button" data-filtro="projetos" aria-pressed="false">Projetos</button>
+        </div>
+
+        <p class="contador" id="contador-noticias" role="status" aria-live="polite">A mostrar 1 notícia.</p>
+
+        <div class="noticias-grid" id="lista-noticias">
+
+          <article class="noticia" data-categoria="projetos">
+            <div class="noticia-meta">
+              <span class="etiqueta etiqueta--amarela">Projetos</span>
+              <time datetime="2022-07-01">1 de julho de 2022</time>
+            </div>
+            <h3>Escola Nacional de Surdos e Mudos inaugura projeto de produção de blocos</h3>
+            <p>Um grupo de dez jovens da Associação dos Surdos e Mudos passa a produzir blocos para a construção civil, com financiamento da Enabel e formação em colaboração com a União Europeia.</p>
+            <details>
+              <summary>Ler notícia completa</summary>
+              <p>A unidade de produção foi instalada na escola e destina-se a abastecer o mercado de Bissau e arredores. O projeto insere-se no programa RESET, de relançamento do ensino, da formação técnica e profissional para o emprego. A Enabel forneceu o equipamento e os materiais para o arranque, e a sustentabilidade do projeto fica a cargo do grupo.</p>
+              <p>O grupo foi convidado a produzir cinco mil blocos, a partir de agosto. O diretor da escola, Augusto José Lopes, afirmou que o projeto é um desafio para a instituição e que deficiência não significa falta de capacidade. A chefe de equipa da delegação da União Europeia, Montse Pantaleoni, espera que o projeto tenha continuidade e que os jovens possam receber um salário no fim de cada mês.</p>
+            </details>
+            <p class="fonte">Fonte: <a href="https://www.odemocratagb.com/?p=39193">O Democrata GB</a>, 1 de julho de 2022.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" aria-labelledby="titulo-cta-noticias">
+      <div class="container">
+        <h2 id="titulo-cta-noticias">Tem uma novidade para partilhar?</h2>
+        <p>Envie-nos sugestões de notícias, convites para eventos ou fotografias de atividades, sempre com autorização das famílias.</p>
+        <a class="btn btn-amarelo" href="contacto.html">Enviar sugestão</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="img/logo.svg" alt="" width="48" height="48">
+          <strong>Escola Nacional de Surdos e Mudos da Guiné-Bissau</strong>
+        </div>
+        <p>Educação, língua gestual e inclusão para pessoas surdas.</p>
+      </div>
+
+      <div>
+        <h3>Navegação</h3>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">A escola</a></li>
+          <li><a href="ensino.html">Ensino</a></li>
+          <li><a href="inscricoes.html">Inscrições</a></li>
+          <li><a href="noticias.html">Notícias</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contacto</h3>
+        <ul>
+          <li>[Endereço completo], Bissau, Guiné-Bissau</li>
+          <li>Telefone: [+245 000 000 000]</li>
+          <li>Email: [email@escola]</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="ano">2026</span> Escola Nacional de Surdos e Mudos da Guiné-Bissau. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
